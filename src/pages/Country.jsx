@@ -10,6 +10,7 @@ export const Country = () => {
   const [loading, setLoading] = useState(false)
   const location = useLocation();
   const linkBack = location?.state?.from ?? '/'
+
   useEffect(() => {
     const currentCountry = async () => {
       setLoading(true);
@@ -48,4 +49,4 @@ export const Country = () => {
       </Container>
     </Section>
   );
-};
+};//
