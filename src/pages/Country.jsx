@@ -27,7 +27,7 @@ export const Country = () => {
 
     currentCountry();
     // return () => {
-    console.log(countrie);
+    // console.log(countrie);
     // }
   }, [countryId])
   const { flag, capital, countryName, id, languages = [], population, } = countrie;
